@@ -439,6 +439,22 @@ footer{
         font-size: 3rem;
         font-family: "MSゴシック";
     }
+	 /*hoverアニメーション無効*/
+.sanka-button:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: none;
+    transition-duration: none;
+  }
+  .mottosiru img:hover{
+    /*box-shadow: 10px 10px 10px rgba(0,0,0,0.5);*/
+    transform: none;
+    transition-duration: none;
+  }
+
+  .sns-img:hover{
+    transform: none;
+    transition-duration: none;
+  }
 }
 
 /*スマートフォン*/
